@@ -145,7 +145,7 @@ body {
 }
 
 .page__intro {
-  background: url("../assets/img/background-test.webp") 0 0 no-repeat;
+  background: url("../assets/img/background-test.png") 0 0 no-repeat;
   background-size: cover;
   background-position: center top;
   position: relative;
@@ -154,7 +154,7 @@ body {
 }
 .page__intro::before {
   content: "";
-  background: linear-gradient(180deg, rgba(143, 1, 1, 0.65) 7%, rgba(247, 5, 5, 0) 100%), url("../assets/img/grakik-red.webp") 0 0 no-repeat;
+  background: linear-gradient(180deg, rgba(143, 1, 1, 0.65) 7%, rgba(247, 5, 5, 0) 100%), url("../assets/img/grakik-red.png") 0 0 no-repeat;
   background-size: cover;
   position: absolute;
   inline-size: 100%;
@@ -360,7 +360,7 @@ body {
     background: linear-gradient(180deg, rgb(93, 9, 9) 0%, rgb(16, 1, 1) 75%);
   }
   .bottom-intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/money-background.webp") 0 0 no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/money-background.png") 0 0 no-repeat;
     backdrop-filter: blur(0.625rem);
     background-size: cover;
     background-position: center;
@@ -393,7 +393,7 @@ body {
     min-inline-size: 17.5rem;
   }
   .page__intro {
-    background: url("../assets/img/red-backgroud.webp") 0 0 no-repeat;
+    background: url("../assets/img/red-backgroud.png") 0 0 no-repeat;
     background-size: contain;
     background-position: center top;
     margin-block-start: 12.5rem;
