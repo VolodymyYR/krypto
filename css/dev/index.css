@@ -333,32 +333,6 @@ body {
   .bottom-intro > *:not(:last-child) {
     margin-block-end: 5rem;
   }
-  .bottom-intro__items {
-    grid-template-columns: repeat(2, minmax(11.25rem, 1fr));
-    justify-content: space-around;
-    gap: 5rem;
-  }
-  .item-intro {
-    max-inline-size: 23.125rem;
-    justify-self: center;
-  }}
-@media (max-width: 61.93625em){
-  .intro__body p {
-    font-size: 1.375rem;
-  }
-  .intro__body-header h2 {
-    font-size: 2.25rem;
-  }
-  .intro__body-header i {
-    font-size: 1.125rem;
-  }
-  .header-bottom-intro__title {
-    font-size: 1.75rem;
-  }}
-@media (max-width: 56.25em){
-  .header-page {
-    background: linear-gradient(180deg, rgb(93, 9, 9) 0%, rgb(16, 1, 1) 75%);
-  }
   .bottom-intro {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/moneyBackground.png") 0 0 no-repeat;
     backdrop-filter: blur(0.625rem);
@@ -384,6 +358,32 @@ body {
   .bottom-intro::after {
     inset-block-start: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  }
+  .bottom-intro__items {
+    grid-template-columns: repeat(2, minmax(11.25rem, 1fr));
+    justify-content: space-around;
+    gap: 5rem;
+  }
+  .item-intro {
+    max-inline-size: 23.125rem;
+    justify-self: center;
+  }}
+@media (max-width: 61.93625em){
+  .intro__body p {
+    font-size: 1.375rem;
+  }
+  .intro__body-header h2 {
+    font-size: 2.25rem;
+  }
+  .intro__body-header i {
+    font-size: 1.125rem;
+  }
+  .header-bottom-intro__title {
+    font-size: 1.75rem;
+  }}
+@media (max-width: 56.25em){
+  .header-page {
+    background: linear-gradient(180deg, rgb(93, 9, 9) 0%, rgb(16, 1, 1) 75%);
   }
   .bottom-intro__items {
     gap: 2.5rem;
