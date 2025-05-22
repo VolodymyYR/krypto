@@ -312,7 +312,6 @@ body {
   }
   .bottom-intro__items {
     display: grid;
-    align-items: start;
     justify-content: center;
     grid-template-columns: repeat(3, minmax(11.25rem, 25rem));
     gap: 5rem;
@@ -330,6 +329,12 @@ body {
     margin-block-start: 15rem;
   }}
 @media (max-width: 65.625em){
+  .page__intro {
+    background: url("../assets/img/redBackgroud.png") 0 0 no-repeat;
+    background-size: contain;
+    background-position: center top;
+    margin-block-start: 12.5rem;
+  }
   .bottom-intro > *:not(:last-child) {
     margin-block-end: 5rem;
   }
@@ -391,12 +396,6 @@ body {
 @media (max-width: 47.99875em){
   .header-page__title {
     min-inline-size: 17.5rem;
-  }
-  .page__intro {
-    background: url("../assets/img/redBackgroud.png") 0 0 no-repeat;
-    background-size: contain;
-    background-position: center top;
-    margin-block-start: 12.5rem;
   }
   .intro__container {
     padding-block-start: 35.625rem;
