@@ -35,3 +35,12 @@
     fetch(link.href, fetchOpts);
   }
 })();
+if (document.querySelector(".background-bubble")) {
+  const containerBubble = document.querySelector(".background-bubble");
+  const countBubble = containerBubble.dataset.count;
+  for (let i = 0; i < countBubble; i++) {
+    const particle = document.createElement("span");
+    particle.classList.add("bubble");
+    containerBubble.appendChild(particle);
+  }
+}
